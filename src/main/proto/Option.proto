@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.github.jimmy.protobuf";
+option java_multiple_files = true;
+
+message GreetingMessage {
+    int32 id = 1;
+    string greeting = 2;
+}
+
+message ReplyMessage {
+    int32 id = 1;
+    string reply = 2;
+}
